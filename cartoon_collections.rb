@@ -2,6 +2,7 @@ def roll_call_dwarves(dwarf_names)
   idx = 0
   while idx < dwarf_names
     puts "#{idx + 1} #{dwarf_names[i]}"
+    idx += 1
   end
 end
 
